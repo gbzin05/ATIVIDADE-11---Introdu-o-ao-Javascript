@@ -1,4 +1,4 @@
-let numero1=Number(prompt("digite o primeiro numero"))
-let numero2=Number(prompt("digite o segundo numero"))
-let soma = numero1 + numero2
-console.log ("a soma e " + soma)
+let largura = Number(prompt("Digite a largura da sala (em metros):"));
+let comprimento = Number(prompt("Digite o comprimento da sala (em metros):"));
+let area = largura * comprimento;
+console.log("A sala tem " + area + " metros quadrados.");
