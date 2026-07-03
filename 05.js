@@ -1,4 +1,5 @@
-let numero1=Number(prompt("digite o primeiro numero"))
-let numero2=Number(prompt("digite o segundo numero"))
-let soma = numero1 + numero2
-console.log ("a soma e " + soma)
+let nota1 = Number(prompt("Digite a primeira nota:"));
+let nota2 = Number(prompt("Digite a segunda nota:"));
+let nota3 = Number(prompt("Digite a terceira nota:"));
+let media = (nota1 + nota2 + nota3) / 3;
+console.log("A média do aluno é: " + media);
